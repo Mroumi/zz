@@ -11,7 +11,7 @@ class PomodoroTimer:
         self.root = root
         self.root.title("专注时钟 (Pomodoro)")
 
-        # 初始状态：工作模式
+        # 初始状态：工作
         self.is_working = True
         self.time_left = WORK_TIME
 
@@ -31,6 +31,19 @@ class PomodoroTimer:
         self.root.after(1000, self.update_timer)
 
     def format_time(self, seconds):
+        """将秒数转换为分钟:秒 格式"""
+        minutes = seconds // 60
+        seconds = seconds % 60
+        return
+          def format_time(self, seconds):
+        """将秒数转换为分钟:秒 格式"""
+        minutes = seconds // 60
+        seconds = seconds % 60
+        return  def format_time(self, seconds):
+        """将秒数转换为分钟:秒 格式"""
+        minutes = seconds // 60
+        seconds = seconds % 60
+        return  def format_time(self, seconds):
         """将秒数转换为分钟:秒 格式"""
         minutes = seconds // 60
         seconds = seconds % 60
