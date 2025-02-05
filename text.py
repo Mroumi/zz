@@ -35,21 +35,3 @@ class PomodoroTimer:
         minutes = seconds // 60
         seconds = seconds % 60
         return
-          def format_time(self, seconds):
-        """将秒数转换为分钟:秒 格式"""
-        minutes = seconds // 60
-        seconds = seconds % 60
-        return  def format_time(self, seconds):
-        """将秒数转换为分钟:秒 格式"""
-        minutes = seconds // 60
-        seconds = seconds % 60
-        return  def format_time(self, seconds):
-        """将秒数转换为分钟:秒 格式"""
-        minutes = seconds // 60
-        seconds = seconds % 60
-        return
-             return  def format_time(self, seconds):
-        """将秒数转换为分钟:秒 格式"""
-        minutes = seconds // 50
-        seconds = seconds % 60
-        return
