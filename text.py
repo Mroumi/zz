@@ -14,6 +14,10 @@ class PomodoroTimer:
         # 初始状态：工作
         self.is_working = True
         self.time_left = WORK_TIME
+class PomodoroTimer:
+    def __init__(self, root):
+        self.root = root
+        self.root.title("专注时钟 (Pomodoro)")
 
         # 创建UI元素
         self.label = tk.Label(root, text="开始工作", font=("Arial", 24))
